@@ -36,7 +36,7 @@ const joinChat = () => {
           />
           <input
             type="text"
-            placeholder="Enter Chat Roomasdshk"
+            placeholder="Enter Chat Room"
             onChange={(e) => setRoom(e.target.value)}
           />
           <button onClick={joinChat}>Join</button>
